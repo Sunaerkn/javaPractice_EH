@@ -12,17 +12,18 @@ public class Q02_ForEach02 {
 
         String[] list = {"fruits", "vegetables", "meat", "milk"};
         for (String element:list
-        ) {
+             ) {
             System.out.print(element + " : " + element.length() + " " ); //fruits : 6 vegetables : 10 meat : 4 milk : 4
+
         }
         System.out.println();
         for (String item:list
-        ) {
+             ) {
             if(item.startsWith("v")) {
                 break;
             }
             System.out.println(item);
-        }
 
+        }
     }
 }
